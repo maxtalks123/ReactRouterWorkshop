@@ -1,0 +1,38 @@
+img {
+  width: 300px;
+}
+
+nav {
+  justify-content: space-between;
+  display: flex;
+  background-color: black;
+  color: white;
+  opacity: 80%;
+  position: sticky;
+  height: 30px;
+}
+
+.BadgerCard {
+  border: 3px solid black;
+  width: fit-content;
+  padding: 15px;
+  margin: 10px;
+  background-color: chartreuse;
+  position: sticky;
+}
+ul {
+  list-style-type: none;
+  margin: none;
+  padding: none;
+}
+li {
+  list-style-type: none;
+  margin: none;
+  padding: 5px;
+}
+.BadgerContainer {
+  display: flex;
+  padding: 3px;
+  margin: 40px;
+  overflow: scroll;
+}
